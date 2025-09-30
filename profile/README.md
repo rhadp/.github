@@ -1,10 +1,10 @@
 # Red Hat Automotive Development Platform
 
-The Red Hat Automotive Development Platform (RHADP) is an integrated development environment designed to support the build and development of automotive applications. RHADP enables automotive software development teams to develop, test, and deploy applications targeting the Red Hat In-Vehicle OS, using modern cloud-native practices built on Red Hat's enterprise Kubernetes platform, OpenShift.
+The **Red Hat Automotive Development Platform** (RHADP) is an integrated development environment designed to support the build and development of automotive applications. RHADP enables automotive software development teams to develop, test, and deploy applications targeting the **Red Hat In-Vehicle OS** (RHIVOS), using modern cloud-native practices built on Red Hat's enterprise Kubernetes platform, OpenShift.
 
 ## Overview
 
-This organization contains the infrastructure, tooling, and deployment components needed to set up and operate RHADP on the Red Hat OpenShift Container Platform:
+This organization contains the infrastructure, tooling, and deployment components needed to set up and operate RHADP on the OpenShift:
 - **Infrastructure and platform**: core infrastructure-as-code and platform deployment scripts and manifests
 - **Container images**: pre-configured development and runtime environments for automotive workloads
 - **Templates**: reusable templates for project scaffolding and developer workflows
@@ -12,7 +12,9 @@ This organization contains the infrastructure, tooling, and deployment component
 
 ## Getting Started
 
-In order to deploy the Red Hat Automotive Development Platform, you must first create the Red Hat OpenShift cluster infrastructure and then install the development platform components on top of the Red Hat OpenShift cluster. The necessary steps are explained in:
+In order to deploy the Red Hat Automotive Development Platform, you must first create the OpenShift cluster infrastructure and then install the development platform components on top of the cluster. 
+
+The necessary steps are explained in:
 
 - [rhadp-bootstrap/docs/README.md](https://github.com/rhadp/rhadp-bootstrap/tree/main/docs/README.md)
 - [rhadp-platform/docs/README.md](https://github.com/rhadp/rhadp-platform/tree/main/docs/README.md)
