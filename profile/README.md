@@ -10,22 +10,17 @@ This organization contains the infrastructure, tooling, and deployment component
 - **Templates**: reusable templates for project scaffolding and developer workflows
 - **Examples**: educational materials and demos for hands-on learning
 
-## Getting Started
-
 In order to deploy the Red Hat Automotive Development Platform, you must first create the OpenShift cluster infrastructure and then install the development platform components on top of the cluster. 
 
-The necessary steps are explained in:
-
-- [rhadp-bootstrap/docs/README.md](https://github.com/rhadp/rhadp-bootstrap/tree/main/docs/README.md)
-- [rhadp-platform/docs/README.md](https://github.com/rhadp/rhadp-platform/tree/main/docs/README.md)
+The necessary steps are explained in [rhadp-bootstrap/docs/README.md](https://github.com/rhadp/rhadp-bootstrap/tree/main/docs/README.md) 
+and [rhadp-platform/docs/README.md](https://github.com/rhadp/rhadp-platform/tree/main/docs/README.md)
 
 Upon deployment, the following core components are available out of the box:
 - **OpenShift Container Platform** - in various deployment configurations to support different use-cases
 - **OpenShift Dev Spaces** - a cloud-based developer IDE
-- **OpenShift GitOps** - declarative management of infrastructure and applications
-- **OpenShift Pipelines** - CI/CD pipelines for building and testing software
+- **OpenShift GitOps, OpenShift Pipelines** - declarative management of infrastructure and applications, CI/CD pipelines for building and testing software
+- **Red Hat build of Keycloak** - cloud-native Identity Access Management (IAM)
 - **OpenShift Virtualization** - run and manage virtual machines alongside container workloads (optional)
-- **CI/CD pipeline integration** - support for OpenShift Pipelines (Tekton), GitHub Actions, or GitLab Runners
 - **Jumpstarter** - for automated testing on real and virtual hardware with CI/CD integration: https://github.com/jumpstarter-dev
 
 ## Links
