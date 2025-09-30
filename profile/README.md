@@ -4,7 +4,7 @@ The **Red Hat Automotive Development Platform** (RHADP) is an integrated develop
 
 ## Overview
 
-This organization contains the infrastructure, tooling, and deployment components needed to set up and operate RHADP on the OpenShift:
+This organization contains the infrastructure, tooling, and deployment components needed to set up and operate the Red Hat Automotive Development Platform on OpenShift:
 - **Infrastructure and platform**: core infrastructure-as-code and platform deployment scripts and manifests
 - **Container images**: pre-configured development and runtime environments for automotive workloads
 - **Templates**: reusable templates for project scaffolding and developer workflows
@@ -12,7 +12,7 @@ This organization contains the infrastructure, tooling, and deployment component
 
 ## Getting started
 
-In order to deploy the Red Hat Automotive Development Platform, you must first create the OpenShift cluster infrastructure and then install the development platform components on top of the cluster. 
+In order to deploy the development platform, you must first create the OpenShift cluster infrastructure and then install the development platform components on top of the cluster. 
 
 The necessary steps are explained in [rhadp-bootstrap/docs/README.md](https://github.com/rhadp/rhadp-bootstrap/tree/main/docs/README.md) 
 and [rhadp-platform/docs/README.md](https://github.com/rhadp/rhadp-platform/tree/main/docs/README.md)
@@ -20,6 +20,9 @@ and [rhadp-platform/docs/README.md](https://github.com/rhadp/rhadp-platform/tree
 
 ## About Red Hat In-Vehicle OS
 
+Get an overview of the Red Hat In-Vehicle OS and its upstream project **AutoSD**:
+
+* [Red Hat Summit 2025 announcement](https://www.redhat.com/en/about/press-releases/red-hat-prepares-new-future-software-defined-vehicles-upcoming-general-availability-red-hat-vehicle-operating-system)
 * [AutoSD - Automotive Stream Distribution](https://sigs.centos.org/automotive/)
 * [https://gitlab.com/CentOS/automotive](https://gitlab.com/CentOS/automotive)
 
