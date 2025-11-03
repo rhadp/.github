@@ -1,6 +1,6 @@
 ## Overview
 
-The **Red Hat Automotive Suite** (RHAS) is an integrated development environment designed to support the build and development of automotive applications. RHADP enables automotive software development teams to develop, test, and deploy applications targeting the **Red Hat In-Vehicle OS** (RHIVOS), using modern cloud-native practices built on Red Hat's enterprise Kubernetes platform, OpenShift.
+The **Red Hat Automotive Suite** (RHAS) is an integrated development environment designed to support the build and development of automotive applications. RHAS enables automotive software development teams to develop, test, and deploy applications targeting the **Red Hat In-Vehicle OS** (RHIVOS), using modern cloud-native practices built on Red Hat's enterprise Kubernetes platform, OpenShift.
 
 This organization contains the infrastructure, tooling, and deployment components needed to set up and operate the Red Hat Automotive Suite on OpenShift:
 
