@@ -13,7 +13,7 @@ This organization contains the infrastructure, tooling, and deployment component
 
 In order to deploy the development platform, you must first create the OpenShift cluster infrastructure and then install the development platform components on top of the cluster.  
 
-The necessary steps are explained in [rhadp-bootstrap/docs/README.md](https://github.com/rhadp/rhadp-bootstrap/tree/main/docs/README.md).  
+The necessary steps are explained in [docs/README.md](https://github.com/rhadp/deploy/tree/main/docs/README.md).  
 
 ## About Red Hat In-Vehicle OS
 
